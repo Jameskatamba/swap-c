@@ -18,7 +18,7 @@ CORS(app)
 # creating an API object
 @app.route('/')
 def home():
-    return 'welcome to sarima prediction models'
+    return 'welcome to the SWAP system prediction models'
 
 @app.route("/predict", methods = ["GET"])
 def predict():
